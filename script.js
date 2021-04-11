@@ -10,7 +10,7 @@ function mobileMenu() {
 
 const navLink = document.querySelectorAll(".nav-links");
 
-navLinkLink.forEach(n => n.adddEventListener("click", closeMenu));
+navLink.forEach(n => n.adddEventListener("click", closeMenu));
 
 function closeMenu() {
     hamburger.classList.remove("active");
