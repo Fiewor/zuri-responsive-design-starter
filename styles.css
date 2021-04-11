@@ -368,34 +368,36 @@ div.footer h6 {
     }
 
     div.logo {
+        padding-left: 1rem;
         font-size: 1.1rem;
     }
 
     ul.nav-links {
-        position: absolute;
+        position: fixed;
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        width: 20%;
+        width: 100%;
         padding: 1rem;
-        width: 100vw;
         transition: 0.3s;
     }
 
     ul.nav-links.active {
-        left: 0;
+        left: 50rem;
+        top: -20rem;
     }
     
     ul.nav-links {
         margin: 2.5rem 0;
     }
     
-    ul li {
+    /* ul li {
         margin: 0 2vw;
         font-size: 1.1rem;
-    }
+    } */
 
     .hamburger {
+        margin-right: 2rem;
         display: block;
         cursor: pointer;
     }
@@ -418,16 +420,8 @@ div.footer h6 {
     
     div.hero-content-heading {
         text-align: center;
-    }
-    
-    div.hero-content-heading h3 {
-        font-size: 2rem;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 300;
-        color: #bcc3c7;
-    }
-    
+    } 
+   
     div.hero-content-heading p {
         text-align: center;
         padding-top: 0.7rem;
@@ -590,9 +584,10 @@ div.footer h6 {
         letter-spacing: 2px;
         padding-top: 0.8rem;
     }
-    
+
     input[type="text"], input[type="email"] {
-        font-size: 0.8rem;
+        padding: 1rem 3rem;
+        font-size: 1rem;
     }
   
     div.footer-textarea {
@@ -600,30 +595,5 @@ div.footer h6 {
         justify-content: center;
         align-items: center;
         padding-top: 2rem;
-    }
-    
-    textarea {
-        width: 51%;
-        height: 150px;
-        padding: 0.5rem;
-        outline: none;
-        background: transparent;
-    }
-    
-    div.footer-btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 2rem;
-    }
-    
-    div.footer-btn a {
-        font-size: 0.9rem;
-        padding: 10px 50px;
-    }
-    
-    div.footer h6 {
-        font-size: 1rem;
-        padding-top: 6rem;
     }
 }
