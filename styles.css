@@ -377,14 +377,14 @@ div.footer h6 {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        width: 100%;
-        padding: 1rem;
+        width: 70%;
+        /* padding: 1rem; */
         transition: 0.3s;
     }
 
     ul.nav-links.active {
-        left: 50rem;
-        top: -20rem;
+        top: 1rem;
+        left: 40rem;
     }
     
     ul.nav-links {
@@ -403,7 +403,7 @@ div.footer h6 {
     }
 
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(6px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -411,7 +411,7 @@ div.footer h6 {
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-6px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
     
     div.hero-section {
