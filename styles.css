@@ -373,20 +373,23 @@ div.footer h6 {
     }
 
     ul.nav-links {
-        position: fixed;
-        right: -100%;
-        top: 5rem;
+        position: absolute;
+        transform: translate(150%, -50%);
         flex-direction: column;
         width: 70%;
-        /* padding: 1rem; */
         transition: 0.3s ease-in-out;
-    }
+    } 
 
     ul.nav-links.active {
-        top: -1rem;
-        left: 15rem;
+        transform: translate(90%, -50%);
     }
-    
+
+    ul li a:hover {
+        background-color: transparent;
+        padding: 0;
+        color: #aac5db;
+    }
+
     ul.nav-links {
         margin: 2.5rem 0;
     }
